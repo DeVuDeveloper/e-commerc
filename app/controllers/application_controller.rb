@@ -3,7 +3,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery
   before_action :redirect_if_unverified
 
-  helper_method :resource
 
   def redirect_if_unverified
     return unless signed_in? && !current_user.verified?

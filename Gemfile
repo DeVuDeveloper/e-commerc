@@ -26,8 +26,10 @@ gem 'zxcvbn-ruby', require: 'zxcvbn'
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   gem 'faker'
+  gem 'factory_bot_rails'
   gem 'rspec-rails'
   gem 'parallel_tests', '4.2.2'
+  gem 'rails-controller-testing'
   gem 'brakeman'
   gem 'bundler-audit'
   gem 'ruby_audit'
