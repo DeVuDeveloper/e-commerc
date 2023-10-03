@@ -1,9 +1,9 @@
 module ApplicationHelper
   def form_error_notification(object)
-    if object.errors.any?
-      tag.div class: "text-red-500 ml-8" do
-        object.errors.full_messages.to_sentence.capitalize
-      end
+    return unless object.errors.any?
+
+    tag.div class: "text-red-500 ml-8" do
+      object.errors.full_messages.to_sentence.capitalize
     end
   end
 

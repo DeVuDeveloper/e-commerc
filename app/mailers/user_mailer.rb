@@ -4,4 +4,3 @@ class UserMailer < ApplicationMailer
     mail(to: @user.email, subject: 'Verification PIN Code')
   end
 end
-  

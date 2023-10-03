@@ -5,15 +5,14 @@ RSpec.describe VerifyController, type: :controller do
 
   before { sign_in user }
 
-
   describe 'POST #create' do
-  it 'sends a verification code to the user email' do
-    user = create(:user)
-    post :create
-    expect(response).to redirect_to verify_url
-    expect(flash[:notice]).to eq("Verification code has been sent to email address.")
+    it 'sends a verification code to the user email' do
+      create(:user)
+      post :create
+      expect(response).to redirect_to verify_url
+      expect(flash[:notice]).to eq("Verification code has been sent to email address.")
+    end
   end
-end
 
   describe 'GET #edit' do
     it 'renders the edit template' do
@@ -52,5 +51,3 @@ end
     end
   end
 end
-
-

@@ -18,7 +18,7 @@ RSpec.describe UserMailer, type: :mailer do
       expect(mail.from).to eq(['from@example.com'])
     end
 
-   it 'contains the verification PIN code' do
+    it 'contains the verification PIN code' do
       expect(mail.body.encoded).to match(user.pin.to_s)
     end
   end

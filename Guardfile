@@ -9,10 +9,10 @@ guard 'livereload' do
     png: :png,
     gif: :gif,
     jpg: :jpg,
-    jpeg: :jpeg,
+    jpeg: :jpeg
   }
 
-  rails_view_exts = %w(erb haml slim)
+  rails_view_exts = %w[erb haml slim]
 
   compiled_exts = extensions.values.uniq
   watch(%r{public/.+\.(#{compiled_exts * '|'})})
