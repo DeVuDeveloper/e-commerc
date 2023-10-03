@@ -6,7 +6,8 @@ This repository demonstrates the implementation of email verification in a Ruby 
 
 ## Screenshots
 
-![Email Verification 2](app/assets/images/screen2.png) | ![Email Verification 2](app/assets/images/screen3.png)
+![Email Verification 1](app/assets/images/screen2.png) ![Email Verification 2](app/assets/images/screen3.png)
+
 
 ## Getting Started
 
