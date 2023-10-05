@@ -2,11 +2,18 @@
 
 ## Overview
 
-This repository demonstrates the implementation of email verification in a Ruby on Rails application using a verification code. Email verification is a vital security feature that ensures the authenticity of user accounts.
+This repository demonstrates the implementation of email verification in a Ruby on Rails application using a verification code. Email verification is a vital security feature that ensures the authenticity of user accounts
+
 
 ## Screenshots
 
 ![Email Verification](app/assets/images/screen.png) 
+
+## Additional Resources
+
+For more in-depth information and best practices on implementing Web Push Notifications in Ruby on Rails, check out our comprehensive article:
+
+[Web Push Notifications in Ruby on Rails - Best Practices]([https://medium.com/@dejanvu.developer/implementing-web-push-notifications-in-a-ruby-on-rails-application-dcd829e02df0](https://medium.com/@dejanvu.developer/email-verification-with-sent-codes-in-ruby-on-rails-a-step-by-step-guide-039bcf194634))
 
 
 ## Getting Started
