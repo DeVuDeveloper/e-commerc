@@ -13,7 +13,7 @@ This repository demonstrates the implementation of email verification in a Ruby 
 
 For more in-depth information and best practices on implementing Web Push Notifications in Ruby on Rails, check out our comprehensive article:
 
-[Email Verification with Sent Codes in Ruby on Rails: A Step-by-Step Guide]([https://medium.com/@dejanvu.developer/implementing-web-push-notifications-in-a-ruby-on-rails-application-dcd829e02df0](https://medium.com/@dejanvu.developer/email-verification-with-sent-codes-in-ruby-on-rails-a-step-by-step-guide-039bcf194634)
+[Email Verification with Sent Codes in Ruby on Rails: A Step-by-Step Guide](https://medium.com/@dejanvu.developer/email-verification-with-sent-codes-in-ruby-on-rails-a-step-by-step-guide-039bcf194634)
 
 
 ## Getting Started
