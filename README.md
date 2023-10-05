@@ -121,6 +121,7 @@ A Stimulus controller improves the user experience by automatically focusing on 
 </div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
